@@ -6,3 +6,13 @@ Also hang on to the mappings between states/observations and indices. In- clude 
 Using the provided Viterbi implementation, infer the sequence of states for sentences 10150-10152 of the Brown corpus:
 nltk.corpus.brown.tagged_sents(tagset=’universal’)[10150:10153]
 and compare against the truth. Explain why your POS tagger does or does not produce the correct tags.
+
+## Part 1: Generate the HMM
+
+### 1.1: Generate the transition matrix
+## Part 2: Built for future evaluation on Viterbi algorithm
+
+
+
+
+
