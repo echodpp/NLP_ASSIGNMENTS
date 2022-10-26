@@ -6,4 +6,4 @@
 * [POS tagging](https://github.com/echodpp/NLP_ASSIGNMENTS/tree/main/Pos_Tagging)
 * [N-grams](https://github.com/echodpp/NLP_ASSIGNMENTS/tree/main/N_grams)
 * [Spelling Correction](https://github.com/echodpp/NLP_ASSIGNMENTS/tree/main/Spelling_Correction)
-* Regular Expressions
+* [Regular Expressions](https://github.com/echodpp/NLP_ASSIGNMENTS/tree/main/Regular_Expressions)
