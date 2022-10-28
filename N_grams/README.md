@@ -1,7 +1,11 @@
-# TEXT Generation
-*Input: A corpus. we want to preserve the order of the text, including pinctuation.
-*Python: Nothing special here. We are going to use Markov Chains to do this,
-and we can implement this using Python's built-in functions.
-*Output: Our goal is to generate new comedy routines in the style of each
-comedian. This is more of a fun side project, but it's a cool way to look at the
-data and it has applications outside of text analysis.
+# Write a bare-bones Markov text generator.
+Implement a function of the form
+finish_sentence(sentence, n, corpus, deterministic=False)
+that takes four arguments:
+1. a sentence [list of tokens] that we’re trying to build on,
+2. n [int], the length of n-grams to use for prediction, and
+3. a source corpus [list of tokens]
+4. a flag indicating whether the process should be deterministic [bool]
+and returns an extended sentence until the first ., ?, or ! is found OR until it has 10 total tokens.
+If the input flag deterministic is true, choose at each step the single most probable next token. When two tokens are equally probable, choose the one that occurs first in the corpus.
+If deterministic is false, draw the next word randomly from the appropriate distribution. Use stupid backoff and no smoothing.
