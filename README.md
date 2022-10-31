@@ -1,7 +1,7 @@
 # This is NlP class assignments 
 
 
-* RNNs	
+* [RNNs](https://github.com/echodpp/NLP_ASSIGNMENTS/tree/main/RNN)	
 * [Document vectors](https://github.com/echodpp/NLP_ASSIGNMENTS/tree/main/Document_Vectors)	
 * [POS tagging](https://github.com/echodpp/NLP_ASSIGNMENTS/tree/main/Pos_Tagging)
 * [N-grams](https://github.com/echodpp/NLP_ASSIGNMENTS/tree/main/N_grams)
